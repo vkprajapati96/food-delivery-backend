@@ -64,9 +64,9 @@ app.post('/order', async (req, res) => {
 
 
 
-// app.get("/",function(req,res){
-//     res.send("working");
-// })
+app.get("/",function(req,res){
+    res.send("working");
+})
 
 app.listen(port,function(){
     console.log(`server running ${port} `);
